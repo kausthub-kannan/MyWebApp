@@ -1,0 +1,244 @@
+body{
+  background: linear-gradient(180deg, rgba(24,24,24,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 21%, rgba(0,12,75,1) 100%, rgba(0,15,91,1) 100%, rgba(0,38,235,1) 100%);
+  overflow: hidden;
+  height: 100vh;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navBar{
+  background-color: black;
+  padding: 1.5%;
+  text-align: right;
+  border-radius: 80px;
+}
+
+.navIcons{
+  margin-right: 0.6%;
+
+}
+
+.web-img{
+  width: 20%;
+}
+
+.navLinks{
+  padding-left: 3%;
+  text-decoration: none;
+  color: white;
+}
+
+.contacts{
+  margin-left: 5%;
+}
+
+.btn-contact{
+  background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  color: white;
+  padding: 0.8%;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.cat-logo{
+  position: absolute;
+  right: 0;
+  width: 40%;
+  margin: 0 -10% 0 0;
+  overflow: hidden;
+}
+
+.main-heading{
+  margin: -1% 0 -1% 5%;
+  font-size: 5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sub-heading{
+  margin-left: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+}
+
+.main-content{
+  width: 50%;
+  padding: 0 0 0 5%;
+  font-size: 1.5rem;
+}
+.card{
+  margin: -1.3% 0 0 4%;
+  padding: 0.05%;
+  background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  box-shadow: 0 4px 20px 0 #58007a;
+  width: 30%;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.icons{
+  text-decoration: none;
+  color: white;
+  margin-left: 5%;
+  margin-bottom: -2%;
+}
+
+.footer{
+  width: 30%;
+  margin-bottom: 1%;
+  margin-left: 33%;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  padding: 1.3%;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.cat-card{
+  margin-top: 3%;
+  padding-left: 6%;
+  width: 5%;
+}
+
+.rows{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.teach-cards{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px 0 #58007a;
+  height: 53vh;
+}
+
+.rows{
+  display: flex;
+  flex-direction: row;
+}
+
+.click-connect{
+  font-size: 0.8rem;
+  text-align: left;
+  margin: -5.7% 0 2% 8%;
+}
+
+.card-2{
+  width: 47.5%;
+  scrollbar-color: grey black;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+
+.certificates{
+  margin-top: -2%;
+  width: 60%;
+  padding: 1.5% 0 10% 0;
+}
+
+.cat-icon{
+  width: 8%;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+.row-2{
+  margin: 0  3% 3% 3%;
+  padding: 5% 2% 2% 2%;
+  box-shadow: 0 4px 20px 0 #58007a;
+  height: 47vh;
+  border-radius: 20px;
+  overflow-y: scroll;
+}
+
+.Project{
+  margin: 0 3% 14% 3%;
+  position: relative;
+}
+
+.tech-logo{
+  width: 5%;
+  padding-left: 2%;
+  margin-bottom: -2%;
+}
+
+.project-name{
+  background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  display: inline;
+  padding: 1%;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px 0 #58007a;
+}
+
+.cat-on-project{
+  top:-30%;
+  left: 10%;
+  width: 6%;
+}
+
+.progress-btn{
+  padding: 1%;
+  margin: -1% 0 0 2%;
+  border-radius: 75px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.completed{
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  font-weight: 1000;
+}
+
+.in-progress{
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  font-weight: 1000;
+}
+
+.card-2::-webkit-scrollbar {
+  border-radius: 75px;
+  width: 7px;
+  height: 8px;
+  background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.card-2::-webkit-scrollbar-thumb{
+  background: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  border-radius: 100px;
+}
+
+.row-2::-webkit-scrollbar {
+  border-radius: 75px;
+  width: 7px;
+  height: 8px;
+  background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.row-2::-webkit-scrollbar-thumb{
+  background: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  border-radius: 100px;
+}
+
+.drop-down{
+  position: absolute;
+  background: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  width: 25%;
+  right: 0;
+  border-radius: 10px;
+  margin: 2%;
+  text-align: left;
+  z-index: 1;
+  font-size: 1.1rem;
+}
